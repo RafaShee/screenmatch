@@ -30,31 +30,43 @@ public class ex {
 //        System.out.println(ehPalindromo("Java")); // Saída: false
 
         //ex5
-        List<String> emails = Arrays.asList("TESTE@EXEMPLO.COM", "exemplo@Java.com ", "Usuario@teste.Com");
-        System.out.println(converterEmails(emails));
+//        List<String> emails = Arrays.asList("TESTE@EXEMPLO.COM", "exemplo@Java.com ", "Usuario@teste.Com");
+//        System.out.println(converterEmails(emails));
+
+        //ex6
+//        System.out.println(Mes.FEVEREIRO.getNumeroDeDias()); // 28
+//        System.out.println(Mes.JULHO.getNumeroDeDias()); // 31
+
+        //ex7
+//        System.out.println(Moeda.DOLAR.converterPara(100));
+//        System.out.println(Moeda.EURO.converterPara(100));
+
+        //ex8
+//        System.out.println(CodigoErro.NOT_FOUND.getCodigo()); // 404
+//        System.out.println(CodigoErro.BAD_REQUEST.getDescricao());
     }
 
     //ex2
-    public static Optional<Integer> processaNumero(Optional<Integer> numero) {
-
-        return numero
-                .filter(n -> n>=0)
-                .map(n -> n * n);
-
-    }
+//    public static Optional<Integer> processaNumero(Optional<Integer> numero) {
+//
+//        return numero
+//                .filter(n -> n>=0)
+//                .map(n -> n * n);
+//
+//    }
 
     //ex3
-    public static String obterPrimeiroEUltimoNome(String nomeCompleto) {
-
-        nomeCompleto = nomeCompleto.trim();
-        String[] nome = nomeCompleto.split("\\s+");
-
-        if (nome.length >= 2) {
-            return nome[0] + " " + nome[nome.length - 1];
-        } else {
-            return nomeCompleto;
-        }
-    }
+//    public static String obterPrimeiroEUltimoNome(String nomeCompleto) {
+//
+//        nomeCompleto = nomeCompleto.trim();
+//        String[] nome = nomeCompleto.split("\\s+");
+//
+//        if (nome.length >= 2) {
+//            return nome[0] + " " + nome[nome.length - 1];
+//        } else {
+//            return nomeCompleto;
+//        }
+//    }
 
     //ex4
 //    public static boolean ehPalindromo(String palavra) {
@@ -65,9 +77,11 @@ public class ex {
 //    }
 
     //ex5
-    public static List<String> converterEmails(List<String> emails) {
-        return emails.stream()
-                .map(email -> email.trim().toLowerCase())
-                .toList();
-    }
+//    public static List<String> converterEmails(List<String> emails) {
+//        return emails.stream()
+//                .map(email -> email.trim().toLowerCase())
+//                .toList();
+//    }
+
+
 }
