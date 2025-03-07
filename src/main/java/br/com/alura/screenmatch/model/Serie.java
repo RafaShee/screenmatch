@@ -18,7 +18,7 @@ public class Serie {
     @Column(unique = true)
     private String titulo;
     private Integer totalTemporadas;
-    private double avaliacao;
+    private Double avaliacao;
     @Enumerated(EnumType.STRING)
     private Categoria genero;
     private String atores;
